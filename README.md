@@ -6,8 +6,12 @@ I will developing the project with @hkeremk.In this project we are going to crea
 
 First We  create a s3 bucket and create input folder.Then upload a book summary as a object in bucket.Than create a lambda function and add a trigger from our s3 bucket.Lambda function create a new folder in s3 bucket that name output and create a json files for polly response and create a mp3 files created in polly include input text.Lambda function working process is when a text file upload in input bucket lambda function invoking and send the text file to polly than polly convert text into and mp4 files and the files uploading into an output bucket with a json document.
 
+
+- s3 bucket
 ![s3 bucket](docs/assets/Ekran%20Resmi%202023-04-06%2017.04.07.png)
+- lambda trigger
 ![lambda trigger](docs/assets/Ekran%20Resmi%202023-04-06%2017.02.44.png)
+-trigger configurations
 ![lambda trigger configuration](docs/assets/Add_Trigger_to_Lambda.png)
 
 
