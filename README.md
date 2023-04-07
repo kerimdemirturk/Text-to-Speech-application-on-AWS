@@ -13,6 +13,8 @@ First We  create a s3 bucket and create input folder.Then upload a book summary 
 ![lambda trigger](docs/assets/Ekran%20Resmi%202023-04-06%2017.02.44.png)
 -trigger configurations
 ![lambda trigger configuration](docs/assets/Add_Trigger_to_Lambda.png)
+-output json file and mp3 file
+![output](docs/assets/Screenshot%20from%202023-04-07%2016-20-03.png)
 
 
 
